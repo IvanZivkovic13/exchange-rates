@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate" time="0.143" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\europointCode\TestGenesis2\shared-master-agent\exchange-rates-client\target\test-classes;C:\europointCode\TestGenesis2\shared-master-agent\exchange-rates-client\target\classes;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.2\spring-boot-autoconfigure-3.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\boot\spring-boot\3.1.2\spring-boot-3.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-context\6.0.11\spring-context-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-aop\6.0.11\spring-aop-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-beans\6.0.11\spring-beans-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-expression\6.0.11\spring-expression-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\boot\spring-boot-test\3.1.2\spring-boot-test-3.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-test\6.0.11\spring-test-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-core\6.0.11\spring-core-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-jcl\6.0.11\spring-jcl-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\groovy\groovy\4.0.13\groovy-4.0.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\groovy\groovy-xml\4.0.13\groovy-xml-4.0.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\ivan.zivkovic\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\groovy\groovy-json\4.0.13\groovy-json-4.0.13.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\ivan.zivkovic\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.1\jackson-databind-2.13.4.1.jar;C:\Users\ivan.zivkovic\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\ivan.zivkovic\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\ivan.zivkovic\.m2\repository\com\europoint\exchangerates\exchange-rates-api\1.0.0-SNAPSHOT\exchange-rates-api-1.0.0-SNAPSHOT.jar;C:\Users\ivan.zivkovic\.m2\repository\com\europoint\exchangerates\exchange-rates-shared\1.0.0-SNAPSHOT\exchange-rates-shared-1.0.0-SNAPSHOT.jar;C:\Users\ivan.zivkovic\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Budapest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\ivan.zivkovic\AppData\Local\Temp\surefire664240262125033583\surefirebooter9076084683974904076.jar C:\Users\ivan.zivkovic\AppData\Local\Temp\surefire664240262125033583 2023-11-22T13-00-48_900-jvmRun1 surefire12121747947959550171tmp surefire_03770844184243968454tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\europointCode\TestGenesis2\shared-master-agent\exchange-rates-client\target\test-classes;C:\europointCode\TestGenesis2\shared-master-agent\exchange-rates-client\target\classes;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.2\spring-boot-autoconfigure-3.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\boot\spring-boot\3.1.2\spring-boot-3.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-context\6.0.11\spring-context-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-aop\6.0.11\spring-aop-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-beans\6.0.11\spring-beans-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-expression\6.0.11\spring-expression-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\boot\spring-boot-test\3.1.2\spring-boot-test-3.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-test\6.0.11\spring-test-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-core\6.0.11\spring-core-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\org\springframework\spring-jcl\6.0.11\spring-jcl-6.0.11.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\groovy\groovy\4.0.13\groovy-4.0.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\groovy\groovy-xml\4.0.13\groovy-xml-4.0.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\ivan.zivkovic\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ivan.zivkovic\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\groovy\groovy-json\4.0.13\groovy-json-4.0.13.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\ivan.zivkovic\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ivan.zivkovic\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\ivan.zivkovic\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.1\jackson-databind-2.13.4.1.jar;C:\Users\ivan.zivkovic\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\ivan.zivkovic\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\ivan.zivkovic\.m2\repository\com\europoint\exchangerates\exchange-rates-api\1.0.0-SNAPSHOT\exchange-rates-api-1.0.0-SNAPSHOT.jar;C:\Users\ivan.zivkovic\.m2\repository\com\europoint\exchangerates\exchange-rates-shared\1.0.0-SNAPSHOT\exchange-rates-shared-1.0.0-SNAPSHOT.jar;C:\Users\ivan.zivkovic\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ivan.zivkovic"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\europointCode\TestGenesis2\shared-master-agent\exchange-rates-client"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\ivan.zivkovic\AppData\Local\Temp\surefire664240262125033583\surefirebooter9076084683974904076.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="ivan.zivkovic"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ivan.zivkovic\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\IVAN~1.ZIV\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\europointCode\TestGenesis2\shared-master-agent\exchange-rates-client"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="19436"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\curl;C:\Users\admin_bojan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Java\scripts;C:\apache-maven-3.8.5\bin;C:\Users\ivan.zivkovic\AppData\Local\Programs\SmartBear\SoapUI-5.7.0\bin;C:\Users\ivan.zivkovic\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\ivan.zivkovic\AppData\Local\Programs\Python\Python311\;C:\Users\ivan.zivkovic\AppData\Local\Microsoft\WindowsApps;C:\Users\ivan.zivkovic\AppData\Roaming\npm;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\ivan.zivkovic\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createNewClient" classname="com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate" time="0.05">
+    <error type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.createNewClient(ExchangeRatesTest.java:120)
+]]></error>
+    <system-out><![CDATA[Headers:		MasterAgentId=a28577a5-5924-4d7b-9ea0-53117831e08c
+				UserId=7aade182-434a-43b8-9dee-fab93f080ac6
+				Accept=*/*
+				Content-Type=application/json
+Body:
+{
+    "id": "79422cd7-c808-4631-a273-45c1a108e998",
+    "name": "Tenfore",
+    "parentClientId": "1944e4d5-b4c4-4576-aef5-1da40c10b7ef",
+    "permissions": [
+        
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[[2023-11-22 13:00:58.311] - 19436 INFO [main] --- org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate]: create_applyExchangeRateListVersionTemplate does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-11-22 13:00:58.318] - 19436 INFO [main] --- org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration com.europoint.exchangerates.ExchangeRatesApplication for test class com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate
+]]></system-err>
+  </testcase>
+  <testcase name="createExchangeRateListVersionTemplate" classname="com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate" time="0.021">
+    <error type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.createExchangeRateListVersionTemplate(ExchangeRatesTest.java:136)
+]]></error>
+    <system-out><![CDATA[Headers:		MasterAgentId=a28577a5-5924-4d7b-9ea0-53117831e08c
+				UserId=7aade182-434a-43b8-9dee-fab93f080ac6
+				Accept=*/*
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="applyExchangeRateListVersionTemplate" classname="com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate" time="0.021">
+    <error type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.applyExchangeRateListVersionTemplate(ExchangeRatesTest.java:190)
+]]></error>
+    <system-out><![CDATA[Headers:		MasterAgentId=a28577a5-5924-4d7b-9ea0-53117831e08c
+				UserId=7aade182-434a-43b8-9dee-fab93f080ac6
+				Accept=*/*
+Body:			<none>
+]]></system-out>
+  </testcase>
+</testsuite>

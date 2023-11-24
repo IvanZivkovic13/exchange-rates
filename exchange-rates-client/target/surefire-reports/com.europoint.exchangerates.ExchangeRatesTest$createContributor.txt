@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.europoint.exchangerates.ExchangeRatesTest$createContributor
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.169 s <<< FAILURE! - in com.europoint.exchangerates.ExchangeRatesTest$createContributor
+com.europoint.exchangerates.ExchangeRatesTest$createContributor.createNewClient  Time elapsed: 0.035 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createContributor.createNewClient(ExchangeRatesTest.java:610)
+
+com.europoint.exchangerates.ExchangeRatesTest$createContributor.createNewContributor  Time elapsed: 0.025 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createContributor.createNewContributor(ExchangeRatesTest.java:625)
+
+com.europoint.exchangerates.ExchangeRatesTest$createContributor.findContributorById  Time elapsed: 0.066 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createContributor.findContributorById(ExchangeRatesTest.java:672)
+

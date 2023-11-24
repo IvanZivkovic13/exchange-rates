@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 1.18 s <<< FAILURE! - in com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient
+com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.createNewClient  Time elapsed: 0.89 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.createNewClient(ExchangeRatesTest.java:717)
+
+com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.getIdAndCreateNewAccessKey  Time elapsed: 0.035 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.getIdAndCreateNewAccessKey(ExchangeRatesTest.java:734)
+
+com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.updateClientName  Time elapsed: 0.077 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.updateClientName(ExchangeRatesTest.java:783)
+
+com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.findClientById  Time elapsed: 0.049 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.findClientById(ExchangeRatesTest.java:800)
+
+com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.findClientByAccessKey  Time elapsed: 0.036 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.findClientByAccessKey(ExchangeRatesTest.java:832)
+
+com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.findAllClientAccessKey  Time elapsed: 0.027 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createAndUpdateExchangeRatesClient.findAllClientAccessKey(ExchangeRatesTest.java:849)
+

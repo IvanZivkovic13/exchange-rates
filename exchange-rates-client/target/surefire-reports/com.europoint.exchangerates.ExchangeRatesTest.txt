@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.europoint.exchangerates.ExchangeRatesTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.368 s - in com.europoint.exchangerates.ExchangeRatesTest

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.europoint.exchangerates.ExchangeRatesTest$runGetMethods
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 4.272 s <<< FAILURE! - in com.europoint.exchangerates.ExchangeRatesTest$runGetMethods
+com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.getAllExchangeRateListVersionTemplates  Time elapsed: 2.125 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.getAllExchangeRateListVersionTemplates(ExchangeRatesTest.java:886)
+
+com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllExchangeRateListTypes  Time elapsed: 0.042 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllExchangeRateListTypes(ExchangeRatesTest.java:900)
+
+com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllAvailableExchangeRateLists  Time elapsed: 0.042 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllAvailableExchangeRateLists(ExchangeRatesTest.java:914)
+
+com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllAvailableContributors  Time elapsed: 0.038 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllAvailableContributors(ExchangeRatesTest.java:928)
+
+com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllClients  Time elapsed: 0.033 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$runGetMethods.findAllClients(ExchangeRatesTest.java:942)
+

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.143 s <<< FAILURE! - in com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate
+com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.createNewClient  Time elapsed: 0.05 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.createNewClient(ExchangeRatesTest.java:120)
+
+com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.createExchangeRateListVersionTemplate  Time elapsed: 0.021 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.createExchangeRateListVersionTemplate(ExchangeRatesTest.java:136)
+
+com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.applyExchangeRateListVersionTemplate  Time elapsed: 0.021 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$create_applyExchangeRateListVersionTemplate.applyExchangeRateListVersionTemplate(ExchangeRatesTest.java:190)
+

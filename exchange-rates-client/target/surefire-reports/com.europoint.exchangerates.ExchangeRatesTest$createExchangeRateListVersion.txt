@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.261 s <<< FAILURE! - in com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewClient  Time elapsed: 0.063 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewClient(ExchangeRatesTest.java:261)
+
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewContributor  Time elapsed: 0.037 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewContributor(ExchangeRatesTest.java:277)
+
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewExchangeRateList  Time elapsed: 0.035 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewExchangeRateList(ExchangeRatesTest.java:337)
+
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewExchangeRateListVersion  Time elapsed: 0.019 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.createNewExchangeRateListVersion(ExchangeRatesTest.java:354)
+
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.findExchangeRateListVersionById  Time elapsed: 0.018 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.findExchangeRateListVersionById(ExchangeRatesTest.java:411)
+
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.findAllVersionsForExchangeRateListId  Time elapsed: 0.017 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.findAllVersionsForExchangeRateListId(ExchangeRatesTest.java:428)
+
+com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.findActiveVersionsForExchangeRateListId  Time elapsed: 0.02 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.europoint.exchangerates.ExchangeRatesTest$createExchangeRateListVersion.findActiveVersionsForExchangeRateListId(ExchangeRatesTest.java:445)
+
